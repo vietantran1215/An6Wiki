@@ -2,6 +2,7 @@
 
 | Term | Meaning |
 |---|---|
+| A2A | Agent-to-Agent communication/task exchange between agent systems. |
 | ADR | Architecture Decision Record. |
 | Agent | Runtime-controlled AI component that can choose actions from state and observations. |
 | Agentic RAG | RAG with dynamic routing, retrieval, grading, rewriting, or iteration. |
@@ -16,6 +17,7 @@
 | DLP | Data Loss Prevention. |
 | E2E | End-to-End. |
 | Eventual Consistency | Model where distributed state converges over time. |
+| FDE | Forward Deployed Engineer. |
 | Golden Dataset | Curated benchmark dataset used for evaluation/regression. |
 | GraphRAG | Retrieval using graph-structured knowledge or graph traversal. |
 | HITL | Human in the Loop. |
