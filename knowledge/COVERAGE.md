@@ -23,6 +23,7 @@ This file maps recurring discussion areas into the canonical v2 knowledge base.
 | Transformer / token / attention fundamentals | 07 AI Foundations |
 | Prompting / structured output / tool calling | 07 AI Foundations |
 | Prompt caching / batch / streaming | 07 AI Foundations |
+| Model runtime parameter compatibility / reasoning effort | 07 AI Foundations |
 | Embeddings | 07 AI Foundations |
 | RAG fundamentals | 08 RAG |
 | Chunking | 08 RAG |

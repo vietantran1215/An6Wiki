@@ -11,3 +11,4 @@ This section covers the mechanics required to reason about LLM applications inst
 - [Prompting, Context & Structured Output](./prompt-context-structured-output.md)
 - [Tool Calling, Streaming, Caching & Batch](./tool-stream-cache-batch.md)
 - [Embeddings](./embeddings.md)
+- [GPT-6 Luna Runtime Parameters](./gpt-6-luna-runtime-parameters.md)
