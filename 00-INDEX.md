@@ -57,6 +57,15 @@ Software Engineering
 21. [Learning Paths](./22-learning-paths.md)
 22. [Glossary](./16-glossary.md)
 
+## Deep dives
+
+23. [RAG Chunking Strategies](./23-rag-chunking-strategies.md)
+24. [RAG Patterns: Corrective, Adaptive, Agentic, Graph and Vectorless](./24-rag-patterns-corrective-adaptive-agentic.md)
+25. [MCP Server: Development to Production](./25-mcp-server-development-to-production.md)
+26. [Secure Enterprise RAG](./26-secure-enterprise-rag.md)
+27. [RAG Evaluation Maturity](./27-rag-evaluation-maturity.md)
+28. [Harness Engineering Decision Framework](./28-harness-engineering-decision-framework.md)
+
 ## Cross-cutting principles
 
 - Reliability before novelty.
