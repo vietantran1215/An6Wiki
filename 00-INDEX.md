@@ -1,81 +1,47 @@
 # An6Wiki — Master Index
 
-## What is this knowledge base for?
+## Canonical v2
 
-An6Wiki is a professional "second brain" for:
+The detailed knowledge base now lives under:
 
-- learning and review;
-- architecture and system design;
-- production engineering decisions;
-- RAG and agentic-AI design;
-- technical training and assessment;
-- interview preparation;
-- technical writing and case-study development;
-- reusable implementation patterns.
+- [knowledge/README.md](./knowledge/README.md)
+- [knowledge/COVERAGE.md](./knowledge/COVERAGE.md)
 
-## Professional knowledge arc
+The v2 knowledge tree covers:
 
 ```text
-Software Engineering
-  → Distributed & Cloud-Native Systems
-  → Production RAG
-  → Agentic AI & Orchestration
-  → Enterprise AI Architecture
-  → Reliability, Security, Governance & Delivery
+Software Foundations
+ → Frontend / Backend / Data
+ → Architecture / Distributed Systems
+ → Cloud / DevOps / SRE
+ → AI / LLM Foundations
+ → RAG / Retrieval
+ → Agents / LangGraph
+ → MCP / A2A / Harness
+ → Security / Governance
+ → Evaluation / Reliability
+ → QA / Assessment
+ → Training / FDE / Delivery
+ → Technology Guides
+ → Project Blueprints
+ → Certification Maps
 ```
 
-## How to navigate
+## Root summary layer
 
-### Engineering foundations
+The existing root-level numbered files remain concise topic summaries and deep-dive notes. Use them for fast recall.
 
-1. [Software Engineering Foundations](./01-software-engineering-foundations.md)
-2. [Frontend Engineering](./02-frontend-engineering.md)
-3. [Backend & API Engineering](./03-backend-api-engineering.md)
-4. [Software Architecture & Distributed Systems](./04-software-architecture-distributed-systems.md)
-5. [Cloud, DevOps & SRE](./05-cloud-devops-sre.md)
-6. [Databases, Messaging & Data Systems](./17-databases-messaging-data-systems.md)
+For serious study, implementation, or architecture decisions, use `knowledge/`.
 
-### AI systems
-
-7. [LLM Application Engineering](./18-llm-application-engineering.md)
-8. [RAG Engineering](./06-rag-engineering.md)
-9. [Retrieval, Vector Databases & Search](./19-retrieval-vector-databases-search.md)
-10. [Agentic AI & LangGraph](./07-agentic-ai-langgraph.md)
-11. [MCP, Agent Runtime & Harness Engineering](./08-mcp-agent-runtime-harness.md)
-12. [AI Security & Governance](./09-ai-security-governance.md)
-13. [Evaluation, Observability & Reliability](./10-evaluation-observability-reliability.md)
-14. [ML, Computer Vision & Time-Series Foundations](./21-ml-cv-time-series-foundations.md)
-
-### Quality, delivery, and communication
-
-15. [Testing, QA & Assessment Engineering](./11-testing-qa-assessment.md)
-16. [Technical Training & Instructional Design](./12-technical-training-instructional-design.md)
-17. [AI FDE & Enterprise Delivery](./20-ai-fde-enterprise-delivery.md)
-18. [Technical Writing & Personal Brand](./13-technical-writing-personal-brand.md)
-19. [Projects, Capstones & Case Studies](./14-projects-capstones-case-studies.md)
-20. [Canonical Code Patterns](./15-canonical-code-patterns.md)
-21. [Learning Paths](./22-learning-paths.md)
-22. [Glossary](./16-glossary.md)
-
-## Deep dives
-
-23. [RAG Chunking Strategies](./23-rag-chunking-strategies.md)
-24. [RAG Patterns: Corrective, Adaptive, Agentic, Graph and Vectorless](./24-rag-patterns-corrective-adaptive-agentic.md)
-25. [MCP Server: Development to Production](./25-mcp-server-development-to-production.md)
-26. [Secure Enterprise RAG](./26-secure-enterprise-rag.md)
-27. [RAG Evaluation Maturity](./27-rag-evaluation-maturity.md)
-28. [Harness Engineering Decision Framework](./28-harness-engineering-decision-framework.md)
-
-## Cross-cutting principles
+## Core principles
 
 - Reliability before novelty.
-- Observability by design, not after deployment.
-- Security at every trust boundary.
-- Least privilege for humans, services, agents, and tools.
-- Idempotency for retryable operations.
-- Explicit timeouts, retries, budgets, and termination conditions.
-- Measure quality per component instead of hiding failure behind an end-to-end score.
-- Prefer deterministic controls around probabilistic AI behavior.
-- Treat architecture as decisions and trade-offs, not diagrams.
-- Use real production constraints and failure modes when learning.
-- Prefer the simplest architecture that satisfies the workflow.
+- Architecture starts from measurable requirements.
+- Security belongs at every trust boundary.
+- The LLM is not an authorization system.
+- Deterministic controls should surround probabilistic behavior.
+- Every retryable write path should consider idempotency.
+- Every agent loop should have explicit budgets and termination.
+- Evaluate components independently before trusting end-to-end quality.
+- Production systems require observability and recovery by design.
+- Learning should produce engineering evidence.

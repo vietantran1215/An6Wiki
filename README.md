@@ -1,21 +1,29 @@
 # An6Wiki
 
-An6Wiki is a personal technical knowledge base distilled from long-running engineering discussions and project work.
+An6Wiki is a personal engineering knowledge base distilled from long-running technical discussions, project work, production architecture analysis, training design, and AI engineering research.
 
-The repository is intentionally organized by **capability**, not by vendor or framework. Technologies such as React, Node.js, LangGraph, AWS, Azure, OpenSearch, and Qdrant appear inside the capability they support.
+## Start here
 
-## Core principle
+**Canonical long-form knowledge base:** [knowledge/README.md](./knowledge/README.md)
+
+**Coverage map:** [knowledge/COVERAGE.md](./knowledge/COVERAGE.md)
+
+The root-level numbered Markdown files are retained as concise summaries and historical navigation. The `knowledge/` tree is the detailed v2.
+
+## Knowledge philosophy
+
+Each detailed topic should move through:
+
+```text
+Fundamentals
+ → Mechanics
+ → Implementation
+ → Production
+ → Failure Modes
+ → Trade-offs
+ → Decision Rules
+```
+
+Core principle:
 
 > Prefer reliable, observable, secure, reproducible systems with explicit trade-offs over novelty.
-
-## Knowledge maturity model
-
-Every topic should be understood through five levels:
-
-1. **Foundation** — vocabulary, mechanics, and first principles.
-2. **Engineering** — implementation patterns and local trade-offs.
-3. **Production** — reliability, security, evaluation, operations, and cost.
-4. **Architecture** — system boundaries, quality attributes, and cross-system trade-offs.
-5. **Governance** — policy, auditability, ownership, compliance, and lifecycle management.
-
-Start at [00-INDEX.md](./00-INDEX.md).
